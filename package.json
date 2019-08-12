@@ -1,0 +1,27 @@
+{
+  "name": "meta-coin",
+  "version": "0.1.0",
+  "description": "Example MetaCoin project developed using Truffle",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "./node_modules/truffle/build/cli.bundled.js compile",
+    "test": "./node_modules/truffle/build/cli.bundled.js test ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyjs/meta-coin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyjs/meta-coin/issues"
+  },
+  "homepage": "https://github.com/jeremyjs/meta-coin#readme",
+  "devDependencies": {
+    "truffle": "5.0.31"
+  }
+}
